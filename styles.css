@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+*{
+    font-family: Roboto;
+    margin: 0;
+}
+body{
+    background-image: url(img/cripto.jpg);
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+header a:hover{
+    color: rgb(107, 107, 107);
+}
+fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 18px;    
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+textarea{
+    margin: 20px 40px;
+    font-size: 20px;
+}
+button{
+    display: inline-block;
+    margin: 0px 160px 0px 160px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(36, 118, 194);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid rgb(189, 184, 184);
+    padding: 2px 5px;
+}
+button:hover{
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
+#offset{
+    width: 70px;
+    font-size: 21px;
+}
+label{
+font-size: 20px;
+}
+input{
+    width: 250px;
+}
+#display{
+    border-radius: 200px;
+    width: 19px;
+    outline: none;
+    border: 1px solid grey;
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+#resultencode{
+    font-size: 20px;
+    display: inline-block;
+    background-image: url(img/cripto.jpg);
+    width: 35%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0px 50px 0px 0px;
+    padding: 6px;
+    border: 1px solid black;
+}
+#resultdecode{
+    font-size: 20px;
+    display: inline-block;
+    background-image: url(img/cripto.jpg);
+    width: 35%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0px 0px 0px 0px;
+    padding: 6px;
+    border: 1px solid black;
+}
+#copyencode{
+    background: none;
+    border: none;
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+}
+#copydecode{
+    background: none;
+    border: none;
+    margin: 0;
+    float: right;
+    margin-right: 20px;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+p{
+    font-size: 18px; 
+    text-align: justify;
+}
+
+#submit{
+    margin: 0px 160px 0px 160px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #292929;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 2px 5px;
+}
+#submit:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+footer{
+    height: 25px;
+    background: #292929;
+    color: white;
+ }
+ #pfooter{
+     text-align: center;
+     font-size: 14px;
+     padding: 4px;
+     font-weight: none;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ footer a{
+     text-decoration: none;
+     color: rgb(212, 212, 212);
+ }
+ footer a:hover{
+     text-decoration: none;
+     color: white;
+ }
+ .content{
+     text-align: center;
+     align-items: center;
+     margin: 200px;
+ }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Denuncifra</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="img/cipher.png">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">🠔 Voltar</a>
+    </header>
+
+    <main>
+        <h1>FORMULÁRIO DE ENVIO</h1><br><br>
+    </main>
+
+    <section id="form">
+        <form action="savepoint.html">
+            <fieldset>
+                <div id="code">
+                    <label for="name" id="nome">Nome:</label><br>
+                    <input type="text" name="name" id="name" value="" required="required">
+                    <br><br>
+                    <label for="number">Telefone:</label><br>
+                    <input type="text" name="telefone" id="number" value="" placeholder="(XX) XXXXX-XXXX"
+                        required="required">
+                    <br><br>
+                    <label for="email" id="email">E-mail:</label><br>
+                    <input type="email" name="email" id="E-mail" value="" required="required"><br>
+
+
+                    <br><br>
+                    <h1>Indique quantas posições de deslocamento você deseja utilizar</h1>
+                    <input type="text" id="display" required="required" oninput="offset.value=value"
+                        onchange="offset.value=value"><br>
+                    <input type="range" id="offset" min="0" max="25" value="0" oninput="display.value=value"
+                        onchange="display.value=value"><br>
+                    <textarea name="encode" required="required" id="encode" cols="30" rows="5"
+                        placeholder="Digite seu texto para ser cifrado..."></textarea>
+                    <textarea name="decode" id="decode" cols="30" rows="5"></textarea>
+                    <br>
+                    <button type="button" id="btencode">Cifrar</button>
+                    <button type="button" id="btdecode">Decifrar</button><br><br><br>
+
+                    <div id="result">
+                        <p id="resultencode"></p>
+                        <button type="button" id="copyencode"><img src="img/copy.png" alt="Copiar"
+                                height="25px"></button>
+                        <p id="resultdecode"></p>
+                        <button type="button" id="copydecode"><img src="img/copy1.png" alt="Copiar"
+                                height="25px"></button>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" id="submit" value="send">Enviar</button>
+                <br><br>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <p id="pfooter">copyright@2021 | feito por <a href="https://github.com/LarissaSiq" target="blank">Larissa
+                Siqueira</a></p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
