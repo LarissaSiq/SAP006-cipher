@@ -20,8 +20,11 @@ a proposta da aplicação, entenda como funciona o método de criptografia da me
 passe para o formulário para poder efetuar sua denúncia em apenas duas páginas, sendo 
 isso em apenas duas páginas, a página da home e a página de formulário.
 
-![Aplicattion](https://user-images.githubusercontent.com/64505863/126701507-c8228304-1674-49ce-9e47-11385e1df3f1.gif)
-_Interface da página home e página de formulário_
+![Aplicattion2](https://user-images.githubusercontent.com/64505863/126704031-441fd3a6-d3a3-49a0-b046-328eb7c59487.gif)
+_Interface da página da home_
+
+![Aplicattion1](https://user-images.githubusercontent.com/64505863/126703354-745f4952-483f-40a3-9b8d-bf3b75af9409.gif)
+_Interface da página de formulário_
 
 ## Usuários, objetivo do produto e necessidades do usuário
 
