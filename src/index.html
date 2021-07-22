@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Denuncifra</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/cipher.png">
 </head>
+
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
-  <script src="index.js" type="module"></script>
+  <header id="index">
+    <nav>
+      <ul>
+        <li
+          style="float: left; color: rgb(255, 255, 255); border-radius: 3px; font-family: Rubik; font-size: 22px; margin: 2px 0px;">
+          <img src="img/cipher.png" height="15px" alt="logo">
+          Denuncifra
+        </li>
+        <li><a href="#goform">Cifrar mensagem</a></li>
+        <li><a href="#about">O que é uma mensagem cifrada?</a></li>
+        <li><a href="#goals">Qual o objetivo desse site?</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br>
+
+  <section id="goals">
+    <div class="goals">
+      <h1>Qual é o objetivo desse site?</h1>
+      <img src="img/security.png" id="security" alt="security">
+      <div id="right">
+        <p>Esse site foi feito para fins de denúncias de violência de uma forma segura
+          feita atráves de mensagens criptografadas. Seu intuito é ajudar pessoas a fazerem suas denúncias
+          de forma segura no seu cotidiano, não chamando tanta atenção.</p><br>
+        <ul>
+          <p><b>Tipos de violência:</b></p>
+            <li>Denuncia de violência contra crianças e adolescentes;</li>
+            <li>Denuncia de violência contra pessoas idosas;</li>
+            <li>Denuncia de violência contra mulher;</li>
+            <li>Denuncia de maus-tratos contra animais domesticos;</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about">
+      <h1>O que é uma mensagem cifrada?</h1>
+      <p id="textabout">Cifrar significa codificar. A cifra de César é
+        uma das técnicas mais simples de cifrar uma mensagem.
+        É um tipo de cifra por substituição, em que cada letra
+        do texto original é substituida por outra que se
+        encontra há um número fixo de posições
+        (deslocamento) mais a frente do mesmo alfabeto.<br><br>
+        Por exemplo se usarmos o deslocamento (offset) de 3 posições:<br>
+
+        Alfabeto sem cifrar: <b>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</b><br>
+        Alfabeto cifrado: <b>D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</b><br>
+        A letra <b>A</b> será <b>D</b><br>
+        A palavra <b>CASA</b> será <b>FDVD</b></p>
+      <img src="img/locked.png" id="locked" alt="locked">
+    </div>
+  </section>
+
+  <section id="goform">
+    <div class="goform">
+      <h1></h1>
+      <a href="form.html"><img src="img/form.png" id="imgform" alt="form"></a><br>
+      <a href="form.html">ACESSAR PÁGINA PARA CIFRAR MENSAGEM ➔</a>
+    </div>
+    <a href="#" style="scroll-behavior: auto;"><img src="img/topo.png" height="25px" id="topo" alt="topo"></a>
+  </section>
+
+  <footer>
+    <p id="pfooter">copyright@2021 | feito por <a href="https://github.com/LarissaSiq" target="blank">Larissa
+        Siqueira</a></p>
+  </footer>
+
+  <script src="index1.js" type="module"></script>
 </body>
+
 </html>

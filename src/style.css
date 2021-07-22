@@ -1,1 +1,115 @@
-/* css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    font-family: Roboto;
+    margin: 0;
+}
+#index{
+    width: 100%;
+    background: rgb(41, 41, 41);
+    position: fixed;
+    box-shadow: rgb(26, 26, 26) 0px 0px 3px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding: 0px 20px;
+    margin: 6px 10px 0px 0px;
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 15px;
+    font-weight: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#goals{
+    background: rgb(230, 231, 231);
+    padding: 65px 150px; 
+}
+#right{
+    float: right;
+    width: 70%;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 0px;
+}
+#security{
+    display: inline-block;
+    width: 20%;
+}
+#about{
+    background-image: url(img/cripto.jpg);
+    padding: 65px 150px;
+}
+#locked{
+    width: 20%;
+    padding: 0px 20px;
+    margin: 30px 0px 0px 50px;
+}
+#textabout{
+    display: inline-block;
+    width: 70%;
+    padding: 25px 0px;
+}
+#goform{
+    padding: 65px 150px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(219, 221, 223);
+}
+#goform a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#goform a:hover{
+    color: rgb(100, 100, 100);
+}
+#imgform{
+    width: 20%;
+}
+#imgform:hover{
+    opacity: 0.4;
+}
+#topo{
+    margin-left: 570px;
+    margin-top: 25px;
+    position: absolute;
+}
+footer{
+   height: 25px;
+   background: rgb(41, 41, 41);
+   color: white;
+}
+#pfooter{
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+    font-weight: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+
+}
+p{
+    font-size: 18px; 
+    text-align: justify;
+}
