@@ -1,45 +1,42 @@
 #  Denuncifra
 
-Denuncifra é uma aplicação web para fazer denúncias contra tipos de violência de uma forma mais
+Denuncifra é uma aplicação web fictícia para fazer denúncias contra tipos de violência de uma forma mais
 sigilosa e segura através de mensagens criptografadas.
+## Resumo do projeto
 
-## Índice
+A enfâse deste projeto está na ultilização da criptografia com cifra de César, uma das
+formas mais fáceis de se criptografar uma mensagem, onde o usuário só precisa adicionar a sua mensagem,
+juntamente com um número de deslocamento, e após esse cifrar a sua mensagem, ela 
+é substituida pela nova mensagem criptografada.
 
-* [1. Resumo do projeto](#1-resumo-do-projeto)
-* [2. Usuários](#2-usuários)
-* [3. Objetivo do produto](#3-objetivo-do-produto)
-* [4. Necessidades do usuário](#4-necessidades-do-usuário)
-* [5. Interface](#5-interface)
+![Aplicattion](https://user-images.githubusercontent.com/64505863/126699560-45229665-9b8e-4304-9478-1987f593f866.gif)
+_Lógica de criptografar a mensagem._
 
-***
+## Interface
 
-## 1. Resumo do projeto
+A interface do projeto foi feita de forma simples e estratégica para que o usuário
+tenha o mínimo de tempo gasto para fazer a sua denúncia, de forma com que ele entenda
+a proposta da aplicação, entenda como funciona o método de criptografia da mensagem e 
+passe para o formulário para poder efetuar sua denúncia em apenas duas páginas, sendo 
+isso em apenas duas páginas, a página da home e a página de formulário.
 
-Esse projeto consiste em fazer uma aplicação da qual se ultilize a cifra de César, uma das
-formas mais fáceis de se criptografar uma mensagem pois ela é um tipo de criptografia
-que você apenas precisa escolher um número de deslocamento, e após esse deslocamento
-sua mensagem original é substituida pela nova mensagem com o deslocamento das letras.
+![Aplicattion](https://user-images.githubusercontent.com/64505863/126701507-c8228304-1674-49ce-9e47-11385e1df3f1.gif)
+_Interface da página home e página de formulário_
 
-## 2. Usuários
+## Usuários, objetivo do produto e necessidades do usuário
 
 Os príncipais usuários são pessoas que sofrem de alguma violência e precisam denunciar
 de forma sigilosa ou então pessoas que queiram fazer alguma denuncia sobre outra pessoa 
 de uma forma mais disfarçada.
 
-## 3. Objetivo do produto
-
 O objetivo do usuário é poder enviar sua denuncia de maneira com que ninguém ao seu
 redor saiba que ele está efetuando a denúncia.
-
-## 4. Necessidades do usuário
 
 O produto ajuda o usuário que tem medo de fazer uma denúncia e a mesma ser exposta,
 ou até mesmo alguém que sofre de violência e tem medo de denunciar pois teme 
 que seu agressor veja e descubra.
 
-## 5. Interface
-
-A interface do projeto foi feita de forma simples e estratégica para que o usuário
-tenha o mínimo de tempo gasto para fazer a sua denúncia, de forma com que ele entenda
-a proposta da aplicação, entenda como funciona o método de criptografia da mensagem e 
-passe para o formulário para poder efetuar sua denúncia.
+## Link para a aplicação:
+[Denuncifra](https://larissasiq.github.io/SAP006-cipher/index.html)
+## Feito por:
+* [Larissa Siqueira](https://github.com/LarissaSiq)
