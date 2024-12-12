@@ -40,6 +40,6 @@ ou até mesmo alguém que sofre de violência e tem medo de denunciar pois teme
 que seu agressor veja e descubra.
 
 ## Link para a aplicação:
-[Denuncifra](https://larissasiq.github.io/SAP006-cipher/index.html)
+[Denuncifra](https://larissasiq.github.io/denuncifra/)
 ## Feito por:
 * [Larissa Siqueira](https://github.com/LarissaSiq)
